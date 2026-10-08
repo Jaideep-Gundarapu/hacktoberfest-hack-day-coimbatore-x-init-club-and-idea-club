@@ -728,26 +728,3 @@ External datasets and models remain subject to their respective licenses and usa
 
 ---
 
-# Submission Checklist
-
-- [x] Project title and description added
-- [ ] All team members listed
-- [x] Problem clearly explained
-- [x] Reason for choosing the problem explained
-- [x] Solution and key features documented
-- [x] Innovation and differentiation explained
-- [x] Architecture included
-- [x] Technical implementation documented
-- [x] Work completed during the hackathon documented
-- [ ] Team contributions finalized
-- [ ] Working application tested on final deployment
-- [ ] Live application link added
-- [ ] Demo video added
-- [x] AI and open-source components documented
-- [x] Setup and usage instructions documented
-- [x] Challenges and learnings documented
-- [ ] Devpost submission completed
-- [ ] Devpost link added
-- [ ] Credits finalized
-- [ ] License finalized
-- [x] Repository organized
