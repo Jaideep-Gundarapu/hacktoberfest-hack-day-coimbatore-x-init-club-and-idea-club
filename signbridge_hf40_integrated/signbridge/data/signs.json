@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "language": "en",
+  "note": "Replace/add filenames with licensed ISL sign videos. The project intentionally does not redistribute third-party sign videos.",
+  "signs": [
+    {
+      "id": "i",
+      "label": "I",
+      "filename": "i.mp4",
+      "aliases": [
+        "me",
+        "myself"
+      ]
+    },
+    {
+      "id": "you",
+      "label": "YOU",
+      "filename": "you.mp4",
+      "aliases": [
+        "u"
+      ]
+    },
+    {
+      "id": "hello",
+      "label": "HELLO",
+      "filename": "hello.mp4",
+      "aliases": [
+        "hi",
+        "greetings"
+      ]
+    },
+    {
+      "id": "thank-you",
+      "label": "THANK YOU",
+      "filename": "thank-you.mp4",
+      "aliases": [
+        "thanks"
+      ]
+    },
+    {
+      "id": "please",
+      "label": "PLEASE",
+      "filename": "please.mp4",
+      "aliases": []
+    },
+    {
+      "id": "sorry",
+      "label": "SORRY",
+      "filename": "sorry.mp4",
+      "aliases": []
+    },
+    {
+      "id": "help",
+      "label": "HELP",
+      "filename": "help.mp4",
+      "aliases": [
+        "assist",
+        "assistance"
+      ]
+    },
+    {
+      "id": "need",
+      "label": "NEED",
+      "filename": "need.mp4",
+      "aliases": [
+        "require"
+      ]
+    },
+    {
+      "id": "want",
+      "label": "WANT",
+      "filename": "want.mp4",
+      "aliases": [
+        "would like"
+      ]
+    },
+    {
+      "id": "water",
+      "label": "WATER",
+      "filename": "water.mp4",
+      "aliases": []
+    },
+    {
+      "id": "food",
+      "label": "FOOD",
+      "filename": "food.mp4",
+      "aliases": [
+        "meal"
+      ]
+    },
+    {
+      "id": "doctor",
+      "label": "DOCTOR",
+      "filename": "doctor.mp4",
+      "aliases": [
+        "physician"
+      ]
+    },
+    {
+      "id": "hospital",
+      "label": "HOSPITAL",
+      "filename": "hospital.mp4",
+      "aliases": []
+    },
+    {
+      "id": "emergency",
+      "label": "EMERGENCY",
+      "filename": "emergency.mp4",
+      "aliases": [
+        "urgent"
+      ]
+    },
+    {
+      "id": "home",
+      "label": "HOME",
+      "filename": "home.mp4",
+      "aliases": []
+    },
+    {
+      "id": "school",
+      "label": "SCHOOL",
+      "filename": "school.mp4",
+      "aliases": []
+    },
+    {
+      "id": "today",
+      "label": "TODAY",
+      "filename": "today.mp4",
+      "aliases": []
+    },
+    {
+      "id": "tomorrow",
+      "label": "TOMORROW",
+      "filename": "tomorrow.mp4",
+      "aliases": []
+    },
+    {
+      "id": "where",
+      "label": "WHERE",
+      "filename": "where.mp4",
+      "aliases": []
+    },
+    {
+      "id": "what",
+      "label": "WHAT",
+      "filename": "what.mp4",
+      "aliases": []
+    },
+    {
+      "id": "yes",
+      "label": "YES",
+      "filename": "yes.mp4",
+      "aliases": []
+    },
+    {
+      "id": "no",
+      "label": "NO",
+      "filename": "no.mp4",
+      "aliases": []
+    },
+    {
+      "id": "a",
+      "label": "A",
+      "filename": "a.mp4",
+      "aliases": []
+    },
+    {
+      "id": "b",
+      "label": "B",
+      "filename": "b.mp4",
+      "aliases": []
+    },
+    {
+      "id": "c",
+      "label": "C",
+      "filename": "c.mp4",
+      "aliases": []
+    },
+    {
+      "id": "d",
+      "label": "D",
+      "filename": "d.mp4",
+      "aliases": []
+    },
+    {
+      "id": "e",
+      "label": "E",
+      "filename": "e.mp4",
+      "aliases": []
+    },
+    {
+      "id": "f",
+      "label": "F",
+      "filename": "f.mp4",
+      "aliases": []
+    },
+    {
+      "id": "g",
+      "label": "G",
+      "filename": "g.mp4",
+      "aliases": []
+    },
+    {
+      "id": "h",
+      "label": "H",
+      "filename": "h.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "j",
+      "label": "J",
+      "filename": "j.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "k",
+      "label": "K",
+      "filename": "k.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "l",
+      "label": "L",
+      "filename": "l.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "m",
+      "label": "M",
+      "filename": "m.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "n",
+      "label": "N",
+      "filename": "n.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "o",
+      "label": "O",
+      "filename": "o.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "p",
+      "label": "P",
+      "filename": "p.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "q",
+      "label": "Q",
+      "filename": "q.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "r",
+      "label": "R",
+      "filename": "r.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "s",
+      "label": "S",
+      "filename": "s.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "t",
+      "label": "T",
+      "filename": "t.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "u",
+      "label": "U",
+      "filename": "u.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "v",
+      "label": "V",
+      "filename": "v.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "w",
+      "label": "W",
+      "filename": "w.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "x",
+      "label": "X",
+      "filename": "x.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "y",
+      "label": "Y",
+      "filename": "y.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    },
+    {
+      "id": "z",
+      "label": "Z",
+      "filename": "z.mp4",
+      "aliases": [],
+      "type": "fingerspell"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+services:
+  signbridge:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      USE_GEMMA: "false"
+    volumes:
+      - ./assets/signs:/app/assets/signs

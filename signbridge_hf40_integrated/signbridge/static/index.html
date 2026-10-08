@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SignBridge — Text to Indian Sign Language</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand">SIGN<span>BRIDGE</span></div>
+      <div class="tagline">AI-assisted English → Indian Sign Language</div>
+    </div>
+    <div id="health" class="status">Checking…</div>
+  </header>
+
+  <main class="layout">
+    <section class="panel input-panel">
+      <h1>Type a sentence</h1>
+      <textarea id="text" placeholder="Try: I need water" maxlength="1000"></textarea>
+      <div class="examples">
+        <button data-example="Hello">Hello</button>
+        <button data-example="I need water">I need water</button>
+        <button data-example="I need help">I need help</button>
+        <button data-example="I need a doctor">I need a doctor</button>
+      </div>
+      <button id="translate" class="primary">Translate to ISL</button>
+      <div id="warning" class="warning hidden"></div>
+      <div class="concept-section">
+        <h2>AI concept plan</h2>
+        <div id="concepts" class="chips"></div>
+        <div id="rationale" class="rationale"></div>
+      </div>
+    </section>
+
+    <section class="panel player-panel">
+      <div class="player-header">
+        <div>
+          <h1>Sign animation</h1>
+          <div id="counter">0 / 0</div>
+        </div>
+        <div class="controls">
+          <label>Speed <input id="speed" type="range" min="0.5" max="1.5" step="0.1" value="1"></label>
+          <button id="replay">Replay</button>
+          <button id="speak">🔊 Speak</button>
+        </div>
+      </div>
+
+      <div class="stage">
+        <video id="video" playsinline preload="metadata"></video>
+        <div id="placeholder" class="placeholder">
+          <div class="avatar">👤</div>
+          <div>Enter a sentence and press <strong>Translate to ISL</strong>.</div>
+        </div>
+        <div id="missing" class="missing hidden"></div>
+      </div>
+
+      <div class="sequence-wrap">
+        <h2>Generated sequence</h2>
+        <div id="sequence" class="sequence"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>SignBridge prototype</span>
+    <span>Text is interpreted into a limited ISL concept vocabulary; each concept is played from a curated sign library.</span>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>
